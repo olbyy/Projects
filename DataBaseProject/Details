@@ -1,0 +1,38 @@
+Project allows College Advisor to assign classrooms for each course. 
+A course can either be a non-lab or lab. Only lab courses are allowed in the lab rooms. 
+If the course is placed in a room that is a non-lab it will reassign to a vacant room of that type. 
+Detailed Parameters for a course and room. 
+  Size - Occupancy
+  Current number of enrolled students
+  Max number of enrolled students for the course
+  Type of course
+  Type of room
+  Course number and room number
+    Ex test cases for Rooms:
+      (type) (courseNum) (Occupancy) (Assigned Room)
+      Lab	208	28	none
+      Room	211	18	none
+      Lab	213	26	none
+      Lab	212B	36	none
+      Lab	215	25	none
+      Lab	218	23	none
+      Room	106	124	none
+      Room	107	132	none
+      Room	108	48	none
+      Room	109	44	none
+      Room	111	44	none
+    Ex test cases for Courses:
+      (type) (courseNum) (Occupancy) (Assigned Room)
+      ENGL	1301	130	Yes	none
+      ENGL	2302	120	No	none
+      COSC	1336	42	Yes	none
+      COSC	1173	45	No	none
+      COSC	1172	40	Yes	none
+      COSC	1337	22	No	none
+      MATH	2413	24	Yes	none
+      HIST	1301	33	No	none
+      MATH	2414	27	Yes	none
+      COSC	2372	26	No	none
+      COSC	2375	17	Yes	none
+
+Database is updated accordingly and presented to the advisor. 
